@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins-SemiBold', sans-serif;
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('Poppins-SemiBold.ttf');
+}
+
+body {
+  font-family: 'Poppins-SemiBold', sans-serif;
+}
+
+.poppins-semibold {
+  font-family: "Poppins-SemiBold", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+    color: #333;
+    background-color: #f4f4f4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 1rem;
+}
+
+header .logo {
+    color: #f4f4f4;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .navigation {
+    color: #f4f4f4;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header .navigation {
+    color: #f4f4f4;
+    text-decoration: underline;
+    font-weight: 200;
+}
+
+header .social a {
+    margin-left: 0.5rem;
+    color: #f4f4f4;
+}
+
+/* Hero/Home section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.img_two {
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+    background-color: #ccc;
+    display: flex;
+    color: #666;
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box {
+    font-size: 35px;
+    color: #333;
+}
+
+.text-box2 {
+    font-size: 35px;
+    color: #333;
+    font-style: italic;
+    font-style: underline;
+}
+
+/* Our Work Section */
+#our-work {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+#our-work h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px; /* Space between columns */
+}
+
+.column {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.img_kayleigh {
+    max-width: 410px;
+    max-height: 500px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    margin: 0 auto 1rem;
+    font-size: 1rem;
+    
+}
+
+.img_sabrina {
+    max-width: 500px;
+    max-height: 500px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    margin: 0 auto 1rem;
+    font-size: 1rem;
+    
+}
+
+.img_chris {
+    max-width: 500px;
+    max-height: 500px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    margin: 0 auto 1rem;
+    font-size: 1rem;
+    
+}
+
+/* Services Section */
+#services {
+    padding: 2rem;
+    text-align: left;
+    background-color: #fafafa;
+}
+
+#services h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#services h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+#services p {
+    text-align: right;
+}
+        
+
+.services-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.services-text {
+    max-width: 500px;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+/* About Us Section */
+#about-us {
+    padding: 2rem;
+    text-align: left;
+    background-color: #fafafa;
+}
+
+#about-us h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+    
+.img_five {
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+    background-color: #ccc;
+    display: flex;
+    color: #666;
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box p {
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+}
+    
+/* Vision and Mission Section */
+#vision-and-mission {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+#vision-and-mission h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.vision p {
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 200;
+}
+
+.vision-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.vision-text {
+    max-width: 500px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#contact p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.5;
+}
