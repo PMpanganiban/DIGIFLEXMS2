@@ -1,0 +1,89 @@
+/* CSS Normalize */
+
+/* 1. Set default box-sizing to border-box for all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Remove default margin and padding */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* 3. Set a consistent line-height */
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif; /* Set a default font family */
+}
+
+/* 4. Remove list styles */
+ul {
+    list-style: none; /* Remove bullets from lists */
+    padding: 0; /* Remove default padding */
+}
+
+/* 5. Set default styles for links */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent element */
+}
+
+/* 6. Make images responsive */
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* 7. Set default styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Remove browser-specific font-weight */
+    margin: 0; /* Remove default margin */
+}
+
+/* 8. Set default styles for form elements */
+input, textarea, select, button {
+    font-family: inherit; /* Use the inherited font family */
+    font-size: inherit; /* Use the inherited font size */
+    line-height: inherit; /* Use the inherited line height */
+}
+
+/* 9. Ensure buttons are styled consistently */
+button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: none; /* Remove default border */
+    background: none; /* Remove default background */
+}
+
+/* 10. Add default styles for input and textarea */
+input, textarea, select {
+    border: 1px solid #ccc; /* Add a default border */
+    border-radius: 4px; /* Add border radius */
+    padding: 0.5rem; /* Add padding for better usability */
+}
+
+/* 11. Set default background color for the body */
+body {
+    background-color: #f4f4f4; /* Ensure a consistent background color */
+}
+
+/* 12. Set default styles for table elements */
+table {
+    border-collapse: collapse; /* Collapse borders for tables */
+    width: 100%; /* Make tables responsive */
+}
+
+th, td {
+    padding: 0.5rem; /* Add padding to table cells */
+    text-align: left; /* Align text to the left */
+}
+
+/* 13. Set default styles for blockquotes */
+blockquote {
+    margin: 0; /* Remove default margin */
+    padding: 0.5rem 1rem; /* Add padding */
+    border-left: 4px solid #ccc; /* Add a left border */
+    color: #666; /* Set a lighter color for blockquotes */
+}

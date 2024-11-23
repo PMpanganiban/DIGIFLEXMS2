@@ -1,0 +1,62 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; /* Set the base font size */
+}
+
+body {
+    line-height: 1.5; /* Set a default line height */
+}
+
+/* Remove default styles for lists */
+ul {
+    list-style: none;
+}
+
+/* Remove default styles for links */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent element */
+}
+
+/* Remove default styles for images */
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Set default styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Remove browser-specific font-weight */
+}
+
+/* Set default styles for form elements */
+input, textarea, select, button {
+    font-family: inherit; /* Use the inherited font family */
+    font-size: inherit; /* Use the inherited font size */
+    line-height: inherit; /* Use the inherited line height */
+}
+
+/* Ensure buttons are styled consistently */
+button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: none; /* Remove default border */
+    background: none; /* Remove default background */
+}
+
+/* Add a default box shadow to inputs and buttons */
+input, textarea, select {
+    border: 1px solid #ccc; /* Add a default border */
+    border-radius: 4px; /* Add border radius */
+    padding: 0.5rem; /* Add padding for better usability */
+}
+
+/* Set a default background color for the body */
+body {
+    background-color: #f4f4f4; /* Ensure a consistent background color */
+}
