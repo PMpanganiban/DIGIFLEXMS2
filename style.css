@@ -80,11 +80,6 @@ header .navigation {
     font-weight: 200;
 }
 
-header .navigation a:hover {
-    text-color: #f4f4f4;
-    text-decoration: underline;
-}
-
 header .social a {
     margin-left: 0.5rem;
     color: #f4f4f4;
@@ -138,6 +133,14 @@ header .social a {
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
+
+#our-work p {
+    font-size: 2rem;
+    font-weight: 450;
+    margin-bottom: 1.5rem;
+    line-height: 1.15;
+}
+
 
 .row {
     display: grid;
@@ -207,12 +210,13 @@ header .social a {
 
 #services h3 {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 450;
     margin-top: 2rem;
 }
 
 #services p {
     text-align: left;
+    line-height: 1.15;
 }
         
 
@@ -240,7 +244,7 @@ header .social a {
 
 #about-us h2 {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 1rem;
 }
 
@@ -269,6 +273,7 @@ header .social a {
     font-size: 16px;
     color: #333;
     text-align: left;
+    line-height: 1.15;
 }
     
 /* Vision and Mission Section */
@@ -282,6 +287,7 @@ header .social a {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    line-height: 1.5;
 }
 
 .vision p {
