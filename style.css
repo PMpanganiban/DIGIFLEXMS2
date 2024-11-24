@@ -149,7 +149,7 @@ header .social a {
 }
 
 .img_kayleigh {
-    max-width: 410px;
+    max-width: 320px;
     max-height: 500px;
     background-color: #ccc;
     display: flex;
@@ -162,7 +162,7 @@ header .social a {
 }
 
 .img_sabrina {
-    max-width: 500px;
+    max-width: 320px;
     max-height: 500px;
     background-color: #ccc;
     display: flex;
@@ -175,7 +175,7 @@ header .social a {
 }
 
 .img_chris {
-    max-width: 500px;
+    max-width: 320px;
     max-height: 500px;
     background-color: #ccc;
     display: flex;
@@ -208,7 +208,6 @@ header .social a {
 
 #services p {
     text-align: left;
-    line-height: 1.5;
 }
         
 
