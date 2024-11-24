@@ -52,8 +52,7 @@ body {
 
 /* Header styling */
 header {
-    display: flex;
-    position: fixed;
+    display: flex, fixed;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
