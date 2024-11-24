@@ -274,7 +274,7 @@ header .social a {
 /* Vision and Mission Section */
 #vision-and-mission {
     padding: 2rem;
-    text-align: center;
+    text-align: left;
     background-color: #fafafa;
 }
 
@@ -292,7 +292,7 @@ header .social a {
 
 .vision-content {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 2rem;
     align-items: left;
 }
