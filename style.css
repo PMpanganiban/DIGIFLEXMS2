@@ -67,16 +67,21 @@ header .logo {
 }
 
 header .navigation {
-    text-emphasis-color: #f4f4f4;
+    text-color: #f4f4f4;
     list-style: none;
     display: flex;
     gap: 1.5rem;
 }
 
 header .navigation {
-    text-emphasis-color: #f4f4f4;
+    text-color: #f4f4f4;
     text-decoration: underline;
     font-weight: 200;
+}
+
+header .navigation a:hover {
+    text-color: #f4f4f4;
+    text-decoration: underline;
 }
 
 header .social a {
